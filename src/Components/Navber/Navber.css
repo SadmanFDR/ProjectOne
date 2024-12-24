@@ -1,0 +1,25 @@
+.for_mobile_menu{
+   @apply hidden lg:block
+}
+.main_nav{
+   @apply flex w-full bg-[#fff] 
+}
+.sad_nav{
+   @apply flex items-center w-full justify-between py-4
+} 
+
+.logo img{
+   @apply py-2 w-[50px] text-start
+}
+.menu{
+   @apply flex gap-2 lg:gap-[64px] ml-[144px] 
+}
+.menu li a{
+   @apply font-Lora font-medium text-[15px] hover:text-bannerColor text-[#000] transition-all duration-500 hover:text-[16px] hover:font-bold
+}
+.menuButton{
+   @apply flex gap-2 
+}
+.menuButton button {
+   @apply px-4 py-3 font-Lora font-semibold text-[14px] lg:text-[18px] bg-bannerColor text-[#fff] hover:bg-[#fff] hover:border-[2px] hover:border-bannerColor hover:text-[#000] rounded-md transition-all duration-500
+}

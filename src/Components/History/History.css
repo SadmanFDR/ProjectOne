@@ -1,0 +1,33 @@
+.main_his_foc{
+   @apply mt-10 lg:mt-[120px]
+}
+.main_his{
+   @apply flex flex-col gap-8 lg:gap-16
+ }
+ .main_his h2{
+     @apply text-[30px] lg:text-[45px] font-Lora font-semibold
+ }
+.for_colum{
+   @apply flex justify-between flex-wrap
+}
+
+ .fack_histo{
+   @apply flex flex-col gap-8 lg:gap-[64px] 
+ }
+ .flexooo{
+   @apply flex gap-2 justify-start items-start
+ }
+ .four_his{
+   @apply lg:gap-4 w-full md:w-[300px] mb-3  lg:mb-4 flex flex-col
+ }
+ .flexooo .dot{
+   @apply w-[18px] h-[18px] rounded-full bg-bannerColor
+ }
+
+ .paragrap_co{
+   @apply lg:w-[667px] px-3 py-4 bg-[#E1F0E9] rounded-lg xl:w-[700px] 
+ }
+.paragrap_co p{
+   @apply lg:w-[660px] w-full  lg:py-[64px] lg:px-[24px] gap-4   md:w-[428px]  font-Montserrat text-[16px] font-medium  text-[#1E1E1E] lg:text-[24px]
+}
+

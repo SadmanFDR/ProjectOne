@@ -1,0 +1,67 @@
+
+.main_con{
+   @apply flex justify-between flex-wrap w-full
+}
+.text_con{
+   @apply flex flex-col mb-5
+}
+.text_con h2{
+   @apply w-full lg:w-[428px] text-[32px] lg:text-[45px] font-Lora font-semibold mb-[30px] text-normalText
+}
+.text_con p{
+   @apply w-full lg:w-[448px] font-Montserrat text-[16px] font-medium mt-[32px] mb-[60px] text-paragrapColor
+}
+.email_part{
+   @apply w-full lg:w-[440px] flex justify-between
+}
+.email_part input{
+   @apply lg:py-3 py-1 pl-2 lg:pl-6 border-e-[#6F747B] border-[1px] w-full rounded-lg
+}
+.email_part a{
+   @apply py-1 pl-2 lg:px-4 lg:py-3 font-Lora font-semibold text-[14px] lg:text-[18px] bg-bannerColor text-[#fff] hover:bg-[#fff] hover:border-[2px] hover:border-bannerColor hover:text-[#000] rounded-md transition-all duration-500 lg:w-[115px] w-[90px]
+}
+.banner_img img{
+   @apply w-full xl:w-[650px] lg:w-[550px] lg:mt-[65px]
+}
+
+
+/*  ============================      banner two  */
+.fraim_banner{
+   @apply flex  w-full md:w-[700px] bg-[#fff] mt-10 lg:mt-[120px] items-center justify-center rounded-md shadow-[9px_16px_16px_3px_rgba(17,_12,_46,_0.15)] py-3
+}
+.for_flex_inhere{
+   @apply flex gap-8 flex-col
+}
+.fraim_banner h2{
+   @apply text-[30px] lg:text-[45px] font-Lora font-semibold
+}
+.fraim_banner p{
+   @apply w-full md:w-[428px]  font-Montserrat text-[16px] font-medium  text-paragrapColor 
+}
+.fraim_banner button{
+   @apply py-1 pl-2 lg:px-4 lg:py-3 font-Lora font-semibold text-[14px] lg:text-[18px] bg-bannerColor text-[#fff] hover:bg-[#fff] hover:border-[2px] hover:border-bannerColor hover:text-[#000] rounded-md transition-all duration-500 lg:w-[135px] w-[90px]  
+}
+.fraim_banner img{
+   @apply w-full md:w-[640px]
+}
+
+
+/* =================================       banner three */
+.main_natural_three{
+   @apply flex gap-10 lg:gap-[90px] flex-col justify-between py-3 
+}
+.chayon_nat{
+   @apply flex  w-full md:w-[700px] bg-[#fff] mt-10 lg:mt-[120px] items-center justify-center rounded-md shadow-[9px_16px_16px_3px_rgba(17,_12,_46,_0.15)] py-3
+}
+.for_text{
+   @apply flex gap-8 flex-col
+}
+.chayon_nat .for_text h2{
+   @apply text-[30px] lg:text-[45px] font-Lora font-semibold
+}
+.chayon_nat .for_text p{
+   @apply w-full md:w-[428px]  font-Montserrat text-[16px] font-medium  text-paragrapColor 
+}
+.chayon_nat .for_text button{
+   @apply py-1 pl-2 lg:px-4 lg:py-3 font-Lora font-semibold text-[14px] lg:text-[18px] bg-bannerColor text-[#fff] hover:bg-[#fff] hover:border-[2px] hover:border-bannerColor hover:text-[#000] rounded-md transition-all duration-500 lg:w-[135px] w-[90px] 
+}

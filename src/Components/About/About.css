@@ -1,0 +1,18 @@
+.main_about{
+   @apply flex justify-between flex-wrap mt-8 lg:mt-[65px] items-center
+}
+.about_text{
+   @apply flex flex-col 
+}
+.about_text h2{
+   @apply text-[30px] lg:text-[45px] font-Lora font-semibold mb-[40px] lg:mb-[90px]
+}
+.about_text button{
+   @apply py-1 pl-2 lg:px-4 lg:py-3 font-Lora font-semibold text-[14px] lg:text-[18px] bg-bannerColor text-[#fff] hover:bg-[#fff] hover:border-[2px] hover:border-bannerColor hover:text-[#000] rounded-md transition-all duration-500 lg:w-[150px] w-[90px] mt-4 lg:mt-8
+}
+.about_text p{
+   @apply w-full md:w-[500px] lg:w-[550px] xl:w-[670px]  font-Montserrat text-[16px] font-medium  text-normalText
+}
+.about_img img{
+   @apply w-full md:w-[480px]
+}

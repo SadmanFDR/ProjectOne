@@ -1,0 +1,39 @@
+.main_footer{
+   @apply flex flex-col gap-[30px] lg:gap-[60px] justify-start xl:gap-[70px] py-20  w-full
+}
+.footer_main_menu{
+   @apply flex flex-wrap gap-4 lg:gap-[34px] xl:gap-20 
+}
+.Sad_footer{
+   @apply flex flex-col items-start  gap-4 
+}
+.Sad_footer p{
+   @apply w-[120px]
+}
+.Sad_footer h3{
+   @apply lg:mb-3 text-[18px] font-Lora font-semibold
+}
+.Sad_footer .icons{
+   @apply flex gap-3
+}
+.Sad_footer img{
+   @apply w-[124px]
+}
+.footer_end{
+   @apply flex justify-between flex-wrap 
+}
+.footer_end .tow_item{
+   @apply flex justify-between w-full flex-wrap gap-5
+}
+.footer_end .more_space{
+   @apply flex gap-5 lg:justify-between lg:w-[800px] xl:w-[900px]
+}
+.footer_end .low_space{
+   @apply flex justify-between gap-5
+}
+.Sad_footer p{
+   @apply font-Montserrat text-[16px] font-medium  text-normalText
+} 
+.Sad_footer a{
+   @apply font-medium text-normalText font-Inter hover:text-bannerColor hover:font-semibold transition-all duration-300
+} 

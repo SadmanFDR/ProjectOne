@@ -1,0 +1,25 @@
+.main_con_ple{
+   @apply flex flex-col gap-[64px]
+}
+.for_card_img{
+   @apply flex  justify-between flex-wrap gap-6
+}
+.for_card_photo{
+   @apply flex  flex-col gap-4 lg:gap-6
+}
+.our_log h2{
+   @apply text-[30px] lg:text-[45px] font-Lora font-semibold
+
+}
+.for_card_photo img{
+   @apply w-full md:w-[270px] 
+}
+.for_card_photo h3{
+   @apply text-[20px] lg:text-[30px] font-Lora font-bold
+}
+.for_card_photo h4{
+   @apply font-Montserrat text-[16px] font-semibold  text-normalText
+}
+.for_card_photo p{
+  @apply w-full md:w-[267px] font-Montserrat text-[16px] font-medium  text-normalText 
+} 

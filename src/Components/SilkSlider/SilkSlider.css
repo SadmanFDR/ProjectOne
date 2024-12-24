@@ -1,0 +1,12 @@
+.slider_main{
+   @apply lg:mt-20 mt-14
+}
+.Slid_card{
+   @apply mt-10  
+}
+.slider_text p{
+   @apply w-full md:w-[428px]  font-Montserrat text-[16px] font-medium  text-paragrapColor 
+}
+.slider_text h2{
+   @apply text-[30px] lg:text-[45px] font-Lora font-semibold
+}

@@ -1,0 +1,27 @@
+.for_dextep_menu{
+   @apply lg:hidden py-3
+}
+.three_icon{
+   @apply text-bannerColor font-bold text-[20px] shadow-[4px_2px_8px_5px_rgba(236,_72,_153,_0.15)]
+}
+.mobile_logo{
+   @apply flex justify-between items-center
+}
+.line{
+   @apply mt-3 text-[#A5BFCC] shadow-[1px_2px_8px_2px_rgba(17,_12,_46,_0.15)]
+}
+.responsive_menu{
+   @apply flex flex-col gap-4 px-6 py-2 bg-bannerColor  rounded-lg items-center w-[200px] mt-6 shadow-[10px_9px_8px_0px_rgba(0,_0,_0,_0.7)]
+}
+.mobile_menu{
+   @apply flex gap-2 flex-col justify-center items-center
+}
+.mobile_menu li a{
+   @apply font-Lora font-medium text-[15px] hover:text-[#CDC1FF] text-[#fff] transition-all duration-500 hover:text-[16px] hover:font-bold text-center px-2 py-1 hover:bg-[#1c2a1a] rounded-lg
+}
+.mobile_menuButton{
+   @apply flex flex-col w-[150px] gap-4 
+}
+.mobile_menuButton button{
+   @apply px-4 py-3 font-Lora font-semibold text-[14px] lg:text-[18px] bg-[#441752] text-[#fff] hover:bg-[#fff] hover:border-[2px] hover:border-bannerColor hover:text-[#000] rounded-md transition-all duration-500
+}
